@@ -45,9 +45,6 @@
 //        testVararg(1,2,3,4,5)
 //        testVararg(*intArrayOf(1,2,4,6,8))
 
-
-
-
     }
 
     fun test():Int{
@@ -67,3 +64,4 @@
     fun testVararg(vararg number: Int){
         number.forEach { e -> println(e) }
     }
+
