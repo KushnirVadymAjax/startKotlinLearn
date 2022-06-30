@@ -23,7 +23,7 @@ class Person(val firstName: String, val lastName: String, var age: Int) {
 }
 
 data class Rectangle(var height: Double, var lenght: Double) : Area,
-    Perimeter, Angles {
+    Perimeter {
     companion object {
         var count = 0
     }
@@ -49,10 +49,6 @@ interface Area {
 
 interface Perimeter {
     fun perimeter(): Double
-}
-
-open class Angles(var angles: Array<Double>) {
-
 }
 
 enum class NewEnum {
