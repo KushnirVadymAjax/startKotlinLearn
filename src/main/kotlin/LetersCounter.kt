@@ -26,10 +26,8 @@ fun counter(leters: List<String>): String {
         }
     }
 
-    if (count == 1)
-        result += curentLeter
-    else
-        result += curentLeter + count
+    if (count == 1) result += curentLeter
+    else result += curentLeter + count
 
     println(result)
     return result
@@ -53,10 +51,8 @@ fun counterChars(leters: String): String {
         }
     }
 
-    if (count == 1)
-        result += curentLeter.toString()
-    else
-        result += curentLeter.toString() + count
+    if (count == 1) result += curentLeter.toString()
+    else result += curentLeter.toString() + count
 
     println(result)
     return result
