@@ -15,8 +15,8 @@ fun main() {
 //    val(positive,negative) = b.partition { it>0 }
 //    println(positive)
 //    println(negative)
-
 //    val result = listOf("asd","awr","yivweqc2").groupBy { it.length }
 //    println(result)
 
 }
+
